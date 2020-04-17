@@ -1,0 +1,50 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quotes Generator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.0/css/all.min.css"
+        integrity="sha256-auSD6WsicI+oJhpUgntiZeIHFg0Vz0mYHrERIp079QU=" crossorigin="anonymous" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://bootswatch.com/4/minty/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mt-5 mb-4">
+            <h1 class="text-center">
+                <i class="fas fa-quote-left text-success"></i>
+                Inspiring <span class="text-success">Quotes</span> For Developers
+                <i class="fas fa-quote-right text-success"></i>
+            </h1>
+        </div>
+        <div class="row mb-5">
+            <div class="col">
+                <button type="button" class="btn btn-secondary btn-lg border-light btn-quote">Generate quote</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="quote-output">
+                <h3 id="quote" class="text-center mb-4"></h3>
+                <h3 id="quote-author" class="text-success"></h3>
+            </div>
+            <div id="icon1"><i class="fas fa-laptop-code fa-4x"></i></div>
+            <div id="icon2"><i class="fas fa-bug fa-4x"></i></div>
+
+
+        </div>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
+    <script src="https://www.vantajs.com/dist/vanta.clouds.min.js"></script>
+    <script>
+        VANTA.CLOUDS("body");
+    </script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
